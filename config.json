@@ -1,0 +1,32 @@
+{
+      "config":{
+      "bastion": "bastion.etu.univ-nantes.fr",
+      "authentication": true,
+      "login": "sample",
+      "password": "sample"
+
+      },
+      "servers":[
+            {
+                  "name":"s1",
+                  "username":"u1",
+                  "ip":"localhost",
+                  "port":"22",
+                  "localport":"8090"
+            },
+            {
+                  "name":"s2",
+                  "username":"u2",
+                  "ip":"localhost",
+                  "port":"22",
+                  "localport":"8091"
+            },
+            {
+                  "name":"s3",
+                  "username":"u3",
+                  "ip":"localhost",
+                  "port":"22",
+                  "localport":"8091"
+            }
+      ]
+}
